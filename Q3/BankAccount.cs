@@ -40,6 +40,7 @@ namespace Q3
         public override string ToString()
         {
             return "Your Name is: "+CustomerName+"Your Account Number is: "+AccountNum+"The balance after any changes is " + Balance;
+            Console.WriteLine("");
         }
 
     }
